@@ -1,105 +1,112 @@
-# Requirement-Analysis
 # Requirement Analysis in Software Development
 
-This repository is created to document and explore the process of **Requirement Analysis**, a foundational step in the **Software Development Life Cycle (SDLC)**. It contains structured insights, real-life examples, and visual diagrams focused on a **Booking Management System** project.
+This repository documents the Requirement Analysis phase of the **Software Development Life Cycle (SDLC)** using a simulated **Booking Management System** project. It includes structured insights, categorized requirements, visual diagrams, and well-defined acceptance criteria to simulate real-world software planning.
 
 ---
 
 ## What is Requirement Analysis?
 
-Requirement Analysis is the process of identifying and documenting what a software system should do to meet business and user needs. It ensures that all stakeholders have a shared understanding of the system's goals, functionalities, and limitations before development begins.
+Requirement Analysis is the process of gathering, analyzing, documenting, and validating what a system needs to achieve to fulfill business and user goals. It helps stakeholders establish a common understanding of the system’s functionality and constraints before development begins.
 
-In the SDLC, this phase serves as the **blueprint** for developers, testers, and designers. It includes gathering requirements from stakeholders, analyzing feasibility, documenting clearly, and validating them to ensure success.
+In the SDLC, this is considered a **blueprint phase**, guiding developers, testers, and designers by defining clear expectations.
 
 ---
 
 ## Why is Requirement Analysis Important?
 
 1. **Prevents Miscommunication**  
-   It aligns developers, clients, and stakeholders to avoid misunderstandings or missed expectations.
+   Aligns developers and stakeholders, reducing confusion and mismatched expectations.
 
 2. **Ensures Scope Clarity**  
-   Well-defined requirements help avoid scope creep and keep the project focused and manageable.
+   Helps control project scope and manage deliverables efficiently, avoiding "scope creep."
 
-3. **Foundation for Design & Testing**  
-   Requirements are used to build both the system and the test cases, ensuring the product is delivered as expected.
+3. **Foundation for Design and Testing**  
+   Provides a base for UI/UX design, database modeling, test case creation, and development.
 
 ---
 
 ## Key Activities in Requirement Analysis
 
 - **Requirement Gathering**  
-  Collect raw information from stakeholders via interviews, questionnaires, or observation.
+  Collect raw information from stakeholders using interviews, surveys, and observation.
 
 - **Requirement Elicitation**  
-  Explore and clarify gathered information through techniques like brainstorming, prototyping, and workshops.
+  Clarify and expand gathered data through techniques like brainstorming, prototyping, or workshops.
 
 - **Requirement Documentation**  
-  Structure and formalize the requirements using specifications, diagrams, and models.
+  Formalize the information using structured documentation like SRS, use cases, and user stories.
 
 - **Requirement Analysis and Modeling**  
-  Examine requirements for completeness, consistency, and feasibility. Create models to represent system functionality.
+  Assess requirements for clarity, consistency, completeness, and feasibility. Represent using models and diagrams.
 
 - **Requirement Validation**  
-  Review requirements with stakeholders to ensure accuracy and agreement before development begins.
+  Review with stakeholders to ensure requirements align with goals and can be realistically achieved.
 
 ---
 
 ## Types of Requirements
 
 ### Functional Requirements
-These describe **what** the system should do — the specific behaviors, features, or functions.
+Define **what** the system should do.
 
-Examples for a Booking Management System:
+Examples (Booking Management System):
 - Users can register and log in.
-- Search for available properties based on location and date.
-- Book or cancel a reservation.
-- Admin can manage property listings.
+- Users can search properties by location and date.
+- Users can book or cancel reservations.
+- Admins can manage property listings.
 
 ### Non-functional Requirements
-These describe **how** the system should perform — performance, usability, security, etc.
+Define **how** the system performs.
 
 Examples:
-- The site must load within **2 seconds**.
+- System must load within **2 seconds**.
 - Support at least **500 concurrent users**.
-- User data must be stored securely using **AES-256 encryption**.
-- The system should have **99.9% uptime** availability.
+- Ensure secure data storage using **AES-256 encryption**.
+- Maintain **99.9% uptime**.
 
 ---
 
 ## Use Case Diagrams
 
-Use Case Diagrams provide a **visual representation of interactions** between users (actors) and the system. They help stakeholders and developers understand system scope and key functionalities.
+Use Case Diagrams visualize **interactions between actors and the system**, making system scope easier to understand for technical and non-technical stakeholders.
 
-![Booking Use Case Diagram](./alx-booking-uc.png)
+![Booking Use Case Diagram](https://raw.githubusercontent.com/ami798/requirement-analysis/main/alx-booking-uc.png)
+
+> Make sure the image file `alx-booking-uc.png` is uploaded to the main folder of this repo.
 
 **Actors:**
-- Guest
-- Admin
+- Guest  
+- Admin  
 
 **Use Cases:**
-- Register
-- Login
-- Search Properties
-- Book Property
-- Cancel Booking
-- Manage Listings
+- Register  
+- Login  
+- Search Properties  
+- Book Property  
+- Cancel Booking  
+- Manage Listings  
 
 ---
 
 ## Acceptance Criteria
 
-Acceptance Criteria define **specific conditions that a feature must meet** to be accepted by stakeholders. They provide a shared understanding of "done."
+Acceptance Criteria define **conditions a feature must meet** to be accepted by the business or client. They ensure features are complete, testable, and aligned with expectations.
 
-### Example: Checkout Feature for Booking System
+### Example: Booking Checkout Feature
 
-- ✅ User must be logged in to proceed to checkout.
-- ✅ System displays a booking summary and total cost.
-- ✅ User can choose between credit card or wallet payment.
-- ✅ Payment gateway returns a success status before booking is confirmed.
-- ✅ A confirmation message and email are sent after a successful transaction.
+- ✅ User must be logged in before initiating checkout.  
+- ✅ Display a summary of reservation and total payment.  
+- ✅ Allow secure payment via credit card or wallet.  
+- ✅ System must receive successful response from payment gateway.  
+- ✅ Send booking confirmation via UI message and email after successful transaction.
 
 ---
 
-> 🧠 This document acts as a foundational step toward developing a robust, scalable, and user-aligned system by emphasizing the importance of planning before building.
+
+---
+
+## 📌 Final Notes
+
+This repository acts as the **blueprint phase of a real-world booking system**, reinforcing planning, clarity, and structure in modern software engineering practices. By following the industry-standard requirement analysis process, developers ensure project success before a single line of code is written.
+
 
