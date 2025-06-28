@@ -70,9 +70,8 @@ Examples:
 
 Use Case Diagrams visualize **interactions between actors and the system**, making system scope easier to understand for technical and non-technical stakeholders.
 
-![Booking Use Case Diagram](https://raw.githubusercontent.com/ami798/requirement-analysis/main/alx-booking-uc.png)
+![Booking Use Case Diagram](![Booking Use Case Diagram](https://github.com/ami798/Requirement-Analysis/blob/main/booking_use_case_diagram.png)
 
-> ✅ Make sure the image file `alx-booking-uc.png` is uploaded to the main folder of this repo.
 
 **Actors:**
 - Guest  
