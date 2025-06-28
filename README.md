@@ -72,7 +72,7 @@ Use Case Diagrams visualize **interactions between actors and the system**, maki
 
 ![Booking Use Case Diagram](https://raw.githubusercontent.com/ami798/requirement-analysis/main/alx-booking-uc.png)
 
-> Make sure the image file `alx-booking-uc.png` is uploaded to the main folder of this repo.
+> ✅ Make sure the image file `alx-booking-uc.png` is uploaded to the main folder of this repo.
 
 **Actors:**
 - Guest  
@@ -102,11 +102,6 @@ Acceptance Criteria define **conditions a feature must meet** to be accepted by 
 
 ---
 
-
----
-
 ## 📌 Final Notes
 
 This repository acts as the **blueprint phase of a real-world booking system**, reinforcing planning, clarity, and structure in modern software engineering practices. By following the industry-standard requirement analysis process, developers ensure project success before a single line of code is written.
-
-
